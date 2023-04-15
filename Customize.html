@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css\Stylesheet.css">
+	<title>Customize</title>
+</head>
+
+<body>
+
+	<h1>
+		<a class="login" href="Log in.html"> Log in </a> &#160;| <a class="login" href="Sign up.html"> Sign up </a>
+		&#160;| <a href="Cart.html"><img class="cart" src="images\cart.jpg"></a>
+	</h1>
+
+
+
+
+	<br>
+	<a href="Homepage.html"><img class="logo" src="images\Main logo.png"> </a>
+	<br>
+
+	<ul>
+		<li class="all1"><a class="navibar" href="Homepage.html">Home</a></li>
+		<li class="all1"><a class="navibar" href="Oil paint.html">Oil paint</a></li>
+		<li class="all1"><a class="navibar" href="Acrylic paint.html">Acrylic paint</a></li>
+		<li class="all1"><a class="navibar" href="Gouache paint.html">Gouache paint<a></li>
+		<li class="all1"><a class="navibar" href="Watercolors paint.html">Watercolors paint</a></li>
+		<li class="currentoption all1"><a class="navibar" href="Customize.html">Customize</a></li>
+		<li class="all1"><a class="navibar" href="About us.html">About us</a></li>
+		<li class="todo"><a class="navibar" href="Contact us.html">Contact us</a></li>
+	</ul>
+
+	<br>
+
+
+	<h2> Customize </h2>
+	<table style="text-align: left;">
+		<th style="font-size: 18px; width: 480px;">Step 1:<br> Choose forom these options which type of paint you
+			want<br><br>Step 2:<br> Name you customized color<br><br>Step 3:<br> Choose youe desired color from the
+			color wheel or write down it's RGB, HSL or hexadecimel value<br><br>Add your unique color to the cart!</th>
+
+		<th>
+			<div class="forms3">
+				<form action="Cart.html" method="POST">
+					Paint Type: <select name="paint type">
+
+						<option>Oil Paint</option>
+						<option>Acrylic paint</option>
+						<option>Gauche paint</option>
+						<option>Watercolors paint</option>
+
+					</select>
+					<br><br>
+					Paint Name: <input type="text" name="name" class="all">
+					<br><br>
+					Color:<input type="Color" name="color">
+					<br>
+					<br>
+					<input type="submit" value="Add to cart" class="next"
+						onclick="alert('Your custom color has been added to cart') ">
+					<br>
+				</form>
+			</div>
+		</th>
+	</table>
+	<br>
+	<br>
+	<br>
+	<div class="footer">
+		<table style="width: 100%">
+			<tr>
+				<th class="infooter" style=" text-align: left;"><a class="navibar" href="https://www.facebook.com/">
+						<img class="socialmedia" src="images\facebook Logo.png" ;> </a>
+					<a class="navibar" href="https://www.instagram.com/"> <img class="socialmedia"
+							src="images\Instagram Logo.png" ;> </a>
+					<a class="navibar" href="https://twitter.com/?lang=en"> <img class="socialmedia"
+							src="images\twitter.png" ;> </a>
+					<a class="navibar" href="https://www.youtube.com/"><img class="socialmedia"
+							src="images\youtube logo.png" ;> </a>
+				</th>
+				<th class="infooter"><a href="Homepage.html"><img class="minilogo" src="images\white logo.png"></a></th>
+				<th class="infooter" style="text-align: right;">Color Tree ltd, paints that are made with ♥ in Belgium
+					<br>© 2021 ColorTree ltd | All rights reserved
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>
